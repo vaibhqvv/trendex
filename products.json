@@ -46,6 +46,30 @@
         "name":" Lymio Cargos",
         "price": 200,
         "image": "image/8.jpg"
+    },
+    {
+        "id": 9,
+        "name":" NASA Cargos",
+        "price": 300,
+        "image": "image/9.jpg"
+    },
+    {
+        "id": 10,
+        "name":" Blue Kurti",
+        "price": 200,
+        "image": "image/10.jpg"
+    },
+    {
+        "id": 11,
+        "name":" Black Shirt",
+        "price": 200,
+        "image": "image/11.jpg"
+    },
+    {
+        "id": 12,
+        "name":" Striped Shirt",
+        "price": 200,
+        "image": "image/12.jpg"
     }
 
 ]
