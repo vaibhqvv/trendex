@@ -19,6 +19,7 @@ body{
     align-items: center;
     padding: 0 20px;
     z-index: 1000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .navbar ul {
@@ -36,6 +37,12 @@ body{
     color: white;
     text-decoration: none;
 }
+.navbar ul li a:hover {
+    color: #E8BC0E;
+    transition: color 0.3s;
+}
+
+
 .nav-left {
     display: flex;
     align-items: center;
@@ -57,7 +64,7 @@ body{
     height: 100%;
     background-color: #be9d17;;
     padding: 20px;
-    transition: left 0.3s;
+    transition: left 0.3s ease-in-out;
     z-index: 999;
 }
 
@@ -75,6 +82,14 @@ body{
     color: #333;
     font-size: 18px;
 }
+.sidebar ul li a:hover {
+    color: white;
+    background-color: #353432;
+    padding: 5px;
+    border-radius: 10px;
+    transition: background-color 0.3s;
+}
+
 
 .sidebar.active {
     left: 0;
@@ -98,6 +113,11 @@ body{
     margin-left: 0px;
     font-style: italic;
     font: bold;
+    font-size: 2.5rem;
+    color: #353432;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+
 }
 
 svg{
@@ -147,7 +167,15 @@ title{
     background-color: #eeeee6;
     padding: 40px;
     border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
 }
+
+.listProduct .item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
 
 .listProduct .item h2{
     font-weight: 500;
@@ -204,6 +232,12 @@ body.showCart .container{
     cursor: pointer;
 }
 
+.cartTab button:hover {
+    background-color: #E8BC0E;
+    transition: background-color 0.3s;
+}
+
+
 .cartTab .btn .close{
     background-color: #eee;
     color: #353432;
@@ -249,7 +283,7 @@ body.showCart .container{
     width: 600px;
     max-width: 90vw;
     margin: 50px auto;
-    background-color: #f7f7f7;
+    background-color: #a09c58;
     padding: 30px;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
@@ -326,4 +360,29 @@ body.showCart .container{
 
 #proceedToPay:hover {
     background-color: #353432;
+}
+
+#back {
+    padding: 10px 20px;
+    background-color:  #353432;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+}
+
+#back:hover {
+    background-color: #be9d17;
+}
+
+@keyframes slideIn {
+    from {
+        left: -250px;
+    }
+    to {
+        left: 0;
+    }
 }
