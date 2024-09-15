@@ -4,8 +4,22 @@ let iconCart = document.querySelector('.icon-cart');
 let iconCartSpan = document.querySelector('.icon-cart span');
 let body = document.querySelector('body');
 let closeCart = document.querySelector('.close');
+const sidebar = document.querySelector('.sidebar');
+const toggleBtn = document.querySelector('#sidebarToggle');
 let listProducts = [];
 let cart = [];
+
+toggleBtn.addEventListener('click', () => {
+    sidebar.classList.toggle('active');
+});
+
+// Optional: Close sidebar when an item is clicked
+sidebar.addEventListener('click', (e) => {
+    if (e.target.tagName === 'A') {
+        sidebar.classList.remove('active');
+    }
+});
+
 
 iconCart.addEventListener('click', () => {
     body.classList.toggle('showCart')

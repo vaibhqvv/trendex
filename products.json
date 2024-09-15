@@ -1,51 +1,51 @@
 [
     {
         "id": 1,
-        "name":" LD01 LOUNGE CHAIR",
+        "name":" Collar Tshirt",
         "price": 200,
-        "image": "image/1.png"
+        "image": "image/1.jpg"
     },
     {
         "id": 2,
-        "name":" LD02 LOUNGE CHAIR",
+        "name":" Floral Dress",
         "price": 250,
-        "image": "image/2.png"
+        "image": "image/2.jpg"
     },
     {
         "id": 3,
-        "name":" LD03 LOUNGE CHAIR",
+        "name":" Beige Cargos",
         "price": 290,
-        "image": "image/3.png"
+        "image": "image/3.jpg"
     },
     {
         "id": 4,
-        "name":" LD04 LOUNGE CHAIR",
+        "name":" BellStone Shirt",
         "price": 200,
-        "image": "image/4.png"
+        "image": "image/4.jpg"
     },
     {
         "id": 5,
-        "name":" LD05 LOUNGE CHAIR",
+        "name":" Lymons Tshirt",
         "price": 300,
-        "image": "image/5.png"
+        "image": "image/5.jpg"
     },
     {
         "id": 6,
-        "name":" LD06 LOUNGE CHAIR",
+        "name":" Grey Shirt",
         "price": 200,
-        "image": "image/6.png"
+        "image": "image/6.jpg"
     },
     {
         "id": 7,
-        "name":" LD07 LOUNGE CHAIR",
+        "name":" Solid Tshirt",
         "price": 200,
-        "image": "image/7.png"
+        "image": "image/7.jpg"
     },
     {
         "id": 8,
-        "name":" LD08 LOUNGE CHAIR",
+        "name":" Lymio Cargos",
         "price": 200,
-        "image": "image/8.png"
+        "image": "image/8.jpg"
     }
 
 ]
