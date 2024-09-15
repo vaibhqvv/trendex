@@ -182,3 +182,87 @@ body.showCart .container{
 .listCart::-webkit-scrollbar{
     width: 0;
 }
+
+/* Checkout Page Styling */
+.checkout-container {
+    width: 600px;
+    max-width: 90vw;
+    margin: 50px auto;
+    background-color: #f7f7f7;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.checkout-container h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #353432;
+}
+
+.total-price h2 {
+    font-size: 1.8rem;
+    color: #E8BC0E;
+    margin-bottom: 20px;
+}
+
+.checkout-container button {
+    padding: 10px 20px;
+    background-color: #353432;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.checkout-container button:hover {
+    background-color: #E8BC0E;
+}
+
+/* Receipt Section */
+.receipt {
+    text-align: left;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+}
+
+.receipt-item {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.receipt-item img {
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+}
+
+.receipt-item .details {
+    flex: 1;
+    margin-left: 10px;
+}
+
+.receipt-item .price {
+    font-weight: bold;
+}
+
+#proceedToPay {
+    padding: 10px 20px;
+    background-color: #E8BC0E;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+}
+
+#proceedToPay:hover {
+    background-color: #353432;
+}

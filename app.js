@@ -112,6 +112,11 @@ listCartHTML.addEventListener('click', (event) => {
     }
 })
 
+document.querySelector('.checkOut').addEventListener('click', () => {
+    window.location.href = 'checkout.html';
+});
+
+
 const changeQuantityCart = (product_id, type) => {
     let positionItemInCart = cart.findIndex((value) => value.product_id == product_id);
     if(positionItemInCart >= 0){
