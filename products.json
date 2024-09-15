@@ -20,7 +20,7 @@
     {
         "id": 4,
         "name":" BellStone Shirt",
-        "price": 200,
+        "price": 250,
         "image": "image/4.jpg"
     },
     {
@@ -32,13 +32,13 @@
     {
         "id": 6,
         "name":" Grey Shirt",
-        "price": 200,
+        "price": 499,
         "image": "image/6.jpg"
     },
     {
         "id": 7,
         "name":" Solid Tshirt",
-        "price": 200,
+        "price": 299,
         "image": "image/7.jpg"
     },
     {
@@ -50,13 +50,13 @@
     {
         "id": 9,
         "name":" NASA Cargos",
-        "price": 300,
+        "price": 359,
         "image": "image/9.jpg"
     },
     {
         "id": 10,
         "name":" Blue Kurti",
-        "price": 200,
+        "price": 249,
         "image": "image/10.jpg"
     },
     {
@@ -68,7 +68,7 @@
     {
         "id": 12,
         "name":" Striped Shirt",
-        "price": 200,
+        "price": 238,
         "image": "image/12.jpg"
     }
 
