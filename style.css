@@ -106,7 +106,7 @@ body{
     padding-top: 10px;
     transition: transform .5s;
     margin-right: 250px;
-    margin-left: 250px; /* Pushes the container to the right */
+    margin-left: 250px; 
 }
 
 .container .welcome {
@@ -117,7 +117,6 @@ body{
     color: #353432;
     text-transform: uppercase;
     letter-spacing: 3px;
-
 }
 
 svg{

@@ -1,4 +1,3 @@
-// Fetch products and display receipt with total amount
 fetch('products.json')
     .then(response => response.json())
     .then(products => {
@@ -11,7 +10,6 @@ fetch('products.json')
                 const product = products.find(p => p.id == item.product_id);
                 totalAmount += product.price * item.quantity;
 
-                // Create a receipt item element
                 let receiptItem = document.createElement('div');
                 receiptItem.classList.add('receipt-item');
                 receiptItem.innerHTML = `
@@ -25,14 +23,10 @@ fetch('products.json')
                 receiptContainer.appendChild(receiptItem);
             });
         }
-
-        // Display total amount
         document.getElementById('totalAmount').innerText = totalAmount.toFixed(2);
     })
     .catch(err => console.error('Error fetching products:', err));
 
-// Handle Proceed to Pay button click
 document.getElementById('proceedToPay').addEventListener('click', () => {
     alert('Proceeding to payment!');
-    // Implement payment functionality here
 });

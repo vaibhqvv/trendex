@@ -13,7 +13,6 @@ toggleBtn.addEventListener('click', () => {
     sidebar.classList.toggle('active');
 });
 
-// Optional: Close sidebar when an item is clicked
 sidebar.addEventListener('click', (e) => {
     if (e.target.tagName === 'A') {
         sidebar.classList.remove('active');
@@ -30,9 +29,8 @@ closeCart.addEventListener('click', () => {
 });
 
 const addDataToHTML = () => {
-    // remove datas default from HTML
     listProductHTML.innerHTML ='';
-    // add new datas
+    
     if(listProducts.length > 0) {
         listProducts.forEach(product => {
             let newProduct = document.createElement('div');
